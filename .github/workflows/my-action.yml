@@ -16,9 +16,9 @@ jobs:
     needs: [say-hello]
     runs-on: ubuntu-latest
     steps:
-      # Use github/action/checkout to check out this repo
+      # Use github/actions/checkout to check out this repo
       - name: Check out this repo
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
 
       # Install necessary packages
       - name: Install dependences
