@@ -22,7 +22,7 @@ jobs:
 
       # Install necessary packages
       - name: Install dependences
-        run: sudo apt install -y build-essential -python3
+        run: sudo apt install -y build-essential python3
 
       # See where we are in the VM
       - run: pwd
